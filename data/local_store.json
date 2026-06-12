@@ -1,0 +1,896 @@
+{
+    "deploy_time": 1779464377.859176,
+    "last_full_statistics": {
+        "name_mapping": {
+            "uwebui_user_webui_x4zoi2tfw_mph3ikvc": [
+                "管理员",
+                1779562940.531739
+            ],
+            "u232623561532165561": [
+                "陈千语",
+                1779558537.884666
+            ]
+        },
+        "stat_data": {
+            "total_requests": 256,
+            "requests_by_type": {
+                "maisaka_timing_gate": 42,
+                "maisaka_planner": 88,
+                "maisaka_replyer": 56,
+                "person_fact_writeback": 19,
+                "maisaka_reply_effect_judge": 6,
+                "A_Memorix.WebImport": 18,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 5,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 1,
+                "A_Memorix.EpisodeSegmentation": 2,
+                "A_Memorix.ChatSummarization": 1,
+                "A_Memorix.PersonProfileEvidenceClassify": 18
+            },
+            "requests_by_user": {
+                "SiliconFlow": 256
+            },
+            "requests_by_model": {
+                "Qwen/Qwen3-8B": 200,
+                "deepseek-v4-flash": 56
+            },
+            "requests_by_module": {
+                "maisaka_timing_gate": 42,
+                "maisaka_planner": 88,
+                "maisaka_replyer": 56,
+                "person_fact_writeback": 19,
+                "maisaka_reply_effect_judge": 6,
+                "A_Memorix": 45
+            },
+            "in_tokens_by_type": {
+                "maisaka_timing_gate": 58628,
+                "maisaka_planner": 284006,
+                "maisaka_replyer": 65140,
+                "person_fact_writeback": 4833,
+                "maisaka_reply_effect_judge": 2559,
+                "A_Memorix.WebImport": 10958,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 2525,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 3998,
+                "A_Memorix.EpisodeSegmentation": 718,
+                "A_Memorix.ChatSummarization": 1727,
+                "A_Memorix.PersonProfileEvidenceClassify": 6030
+            },
+            "in_tokens_by_user": {
+                "SiliconFlow": 441122
+            },
+            "in_tokens_by_model": {
+                "Qwen/Qwen3-8B": 375982,
+                "deepseek-v4-flash": 65140
+            },
+            "in_tokens_by_module": {
+                "maisaka_timing_gate": 58628,
+                "maisaka_planner": 284006,
+                "maisaka_replyer": 65140,
+                "person_fact_writeback": 4833,
+                "maisaka_reply_effect_judge": 2559,
+                "A_Memorix": 25956
+            },
+            "out_tokens_by_type": {
+                "maisaka_timing_gate": 19104,
+                "maisaka_planner": 45485,
+                "maisaka_replyer": 1514,
+                "person_fact_writeback": 10095,
+                "maisaka_reply_effect_judge": 5352,
+                "A_Memorix.WebImport": 24148,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 9679,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 1443,
+                "A_Memorix.EpisodeSegmentation": 541,
+                "A_Memorix.ChatSummarization": 1611,
+                "A_Memorix.PersonProfileEvidenceClassify": 10071
+            },
+            "out_tokens_by_user": {
+                "SiliconFlow": 129043
+            },
+            "out_tokens_by_model": {
+                "Qwen/Qwen3-8B": 127529,
+                "deepseek-v4-flash": 1514
+            },
+            "out_tokens_by_module": {
+                "maisaka_timing_gate": 19104,
+                "maisaka_planner": 45485,
+                "maisaka_replyer": 1514,
+                "person_fact_writeback": 10095,
+                "maisaka_reply_effect_judge": 5352,
+                "A_Memorix": 47493
+            },
+            "tokens_by_type": {
+                "maisaka_timing_gate": 77732,
+                "maisaka_planner": 329491,
+                "maisaka_replyer": 66654,
+                "person_fact_writeback": 14928,
+                "maisaka_reply_effect_judge": 7911,
+                "A_Memorix.WebImport": 35106,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 12204,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 5441,
+                "A_Memorix.EpisodeSegmentation": 1259,
+                "A_Memorix.ChatSummarization": 3338,
+                "A_Memorix.PersonProfileEvidenceClassify": 16101
+            },
+            "tokens_by_user": {
+                "SiliconFlow": 570165
+            },
+            "tokens_by_model": {
+                "Qwen/Qwen3-8B": 503511,
+                "deepseek-v4-flash": 66654
+            },
+            "tokens_by_module": {
+                "maisaka_timing_gate": 77732,
+                "maisaka_planner": 329491,
+                "maisaka_replyer": 66654,
+                "person_fact_writeback": 14928,
+                "maisaka_reply_effect_judge": 7911,
+                "A_Memorix": 73449
+            },
+            "total_cost": 0.068168,
+            "costs_by_type": {
+                "maisaka_timing_gate": 0.0,
+                "maisaka_planner": 0.0,
+                "maisaka_replyer": 0.068168,
+                "person_fact_writeback": 0.0,
+                "maisaka_reply_effect_judge": 0.0,
+                "A_Memorix.WebImport": 0.0,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 0.0,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 0.0,
+                "A_Memorix.EpisodeSegmentation": 0.0,
+                "A_Memorix.ChatSummarization": 0.0,
+                "A_Memorix.PersonProfileEvidenceClassify": 0.0
+            },
+            "costs_by_user": {
+                "SiliconFlow": 0.068168
+            },
+            "costs_by_model": {
+                "Qwen/Qwen3-8B": 0.0,
+                "deepseek-v4-flash": 0.068168
+            },
+            "costs_by_module": {
+                "maisaka_timing_gate": 0.0,
+                "maisaka_planner": 0.0,
+                "maisaka_replyer": 0.068168,
+                "person_fact_writeback": 0.0,
+                "maisaka_reply_effect_judge": 0.0,
+                "A_Memorix": 0.0
+            },
+            "avg_time_costs_by_type": {
+                "maisaka_timing_gate": 19.512,
+                "maisaka_planner": 22.641,
+                "maisaka_replyer": 17.091,
+                "person_fact_writeback": 23.565,
+                "A_Memorix.EpisodeSegmentation": 9.806,
+                "A_Memorix.PersonProfileEvidenceClassify": 24.062,
+                "maisaka_reply_effect_judge": 35.99,
+                "A_Memorix.ChatSummarization": 79.055,
+                "A_Memorix.WebImport": 57.612,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 61.937,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 83.316
+            },
+            "avg_time_costs_by_user": {
+                "SiliconFlow": 25.313
+            },
+            "avg_time_costs_by_model": {
+                "Qwen/Qwen3-8B": 27.615,
+                "deepseek-v4-flash": 17.091
+            },
+            "avg_time_costs_by_module": {
+                "maisaka_timing_gate": 19.512,
+                "maisaka_planner": 22.641,
+                "maisaka_replyer": 17.091,
+                "person_fact_writeback": 23.565,
+                "A_Memorix": 45.496,
+                "maisaka_reply_effect_judge": 35.99
+            },
+            "std_time_costs_by_type": {
+                "maisaka_timing_gate": 9.572,
+                "maisaka_planner": 6.432,
+                "maisaka_replyer": 44.207,
+                "person_fact_writeback": 14.898,
+                "A_Memorix.EpisodeSegmentation": 5.759,
+                "A_Memorix.PersonProfileEvidenceClassify": 7.934,
+                "maisaka_reply_effect_judge": 7.987,
+                "A_Memorix.ChatSummarization": 0.0,
+                "A_Memorix.WebImport": 18.028,
+                "A_Memorix.RetrievalTuning.NLCaseGen": 0.0,
+                "A_Memorix.RetrievalTuning.ProfileSuggest": 8.726
+            },
+            "std_time_costs_by_user": {
+                "SiliconFlow": 26.21
+            },
+            "std_time_costs_by_model": {
+                "Qwen/Qwen3-8B": 17.547,
+                "deepseek-v4-flash": 44.207
+            },
+            "std_time_costs_by_module": {
+                "maisaka_timing_gate": 9.572,
+                "maisaka_planner": 6.432,
+                "maisaka_replyer": 44.207,
+                "person_fact_writeback": 14.898,
+                "A_Memorix": 25.577,
+                "maisaka_reply_effect_judge": 7.987
+            },
+            "online_time": 102564.66937399996,
+            "total_messages": 136,
+            "messages_by_chat": {
+                "u232623561532165561": 98,
+                "uwebui_user_webui_x4zoi2tfw_mph3ikvc": 38
+            },
+            "total_replies": 58
+        },
+        "timestamp": 1779568292.636604
+    },
+    "webui_dashboard_statistics_cache": {
+        "version": 1,
+        "generated_at": 1779568292.679757,
+        "entries": {
+            "24": {
+                "summary": {
+                    "total_requests": 256,
+                    "total_cost": 0.06816799999999999,
+                    "total_tokens": 570165,
+                    "online_time": 85761.695064,
+                    "total_messages": 67,
+                    "total_replies": 23,
+                    "avg_response_time": 25.31266015625,
+                    "cost_per_hour": 0.0028614732931393867,
+                    "tokens_per_hour": 23933.692057605014
+                },
+                "model_stats": [
+                    {
+                        "model_name": "Qwen/Qwen3-8B",
+                        "request_count": 158,
+                        "total_cost": 0.0,
+                        "total_tokens": 395946,
+                        "avg_response_time": 30.113000000000003
+                    },
+                    {
+                        "model_name": "deepseek-v4-flash",
+                        "request_count": 42,
+                        "total_cost": 0.05738900000000001,
+                        "total_tokens": 56003,
+                        "avg_response_time": 14.47395238095238
+                    }
+                ],
+                "hourly_data": [
+                    {
+                        "timestamp": "2026-05-23T03:00:00",
+                        "requests": 6,
+                        "cost": 0.0,
+                        "tokens": 12647
+                    },
+                    {
+                        "timestamp": "2026-05-23T06:00:00",
+                        "requests": 59,
+                        "cost": 0.012362999999999999,
+                        "tokens": 127621
+                    },
+                    {
+                        "timestamp": "2026-05-23T07:00:00",
+                        "requests": 24,
+                        "cost": 0.002381,
+                        "tokens": 43222
+                    },
+                    {
+                        "timestamp": "2026-05-23T08:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1671
+                    },
+                    {
+                        "timestamp": "2026-05-23T09:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1748
+                    },
+                    {
+                        "timestamp": "2026-05-23T10:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1988
+                    },
+                    {
+                        "timestamp": "2026-05-23T11:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1749
+                    },
+                    {
+                        "timestamp": "2026-05-23T12:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1773
+                    },
+                    {
+                        "timestamp": "2026-05-23T13:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1818
+                    },
+                    {
+                        "timestamp": "2026-05-23T14:00:00",
+                        "requests": 1,
+                        "cost": 0.0,
+                        "tokens": 761
+                    },
+                    {
+                        "timestamp": "2026-05-23T16:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1616
+                    },
+                    {
+                        "timestamp": "2026-05-23T17:00:00",
+                        "requests": 39,
+                        "cost": 0.017934,
+                        "tokens": 105667
+                    },
+                    {
+                        "timestamp": "2026-05-23T18:00:00",
+                        "requests": 45,
+                        "cost": 0.007490999999999999,
+                        "tokens": 109102
+                    },
+                    {
+                        "timestamp": "2026-05-23T19:00:00",
+                        "requests": 7,
+                        "cost": 0.002144,
+                        "tokens": 13100
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:00:00",
+                        "requests": 61,
+                        "cost": 0.025855,
+                        "tokens": 145682
+                    }
+                ],
+                "daily_data": [
+                    {
+                        "timestamp": "2026-05-23T00:00:00",
+                        "requests": 256,
+                        "cost": 0.06816799999999999,
+                        "tokens": 570165
+                    }
+                ],
+                "recent_activity": [
+                    {
+                        "timestamp": "2026-05-23T20:31:15.431611",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3430,
+                        "cost": 0.0,
+                        "time_cost": 20.951,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:31:11.016556",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 653,
+                        "cost": 0.0,
+                        "time_cost": 16.556,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:54.272566",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1145,
+                        "cost": 0.001187,
+                        "time_cost": 1.129,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:53.133205",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3155,
+                        "cost": 0.0,
+                        "time_cost": 16.666,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:51.161820",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 610,
+                        "cost": 0.0,
+                        "time_cost": 14.708,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:36.272836",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1126,
+                        "cost": 0.001152,
+                        "time_cost": 0.93,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:35.333559",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3293,
+                        "cost": 0.0,
+                        "time_cost": 24.993,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:10.321544",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3253,
+                        "cost": 0.0,
+                        "time_cost": 23.63,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:03.894100",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_reply_effect_judge",
+                        "tokens": 1627,
+                        "cost": 0.0,
+                        "time_cost": 50.623,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:29:46.683342",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_timing_gate",
+                        "tokens": 1694,
+                        "cost": 0.0,
+                        "time_cost": 19.978,
+                        "status": null
+                    }
+                ],
+                "sparse": true
+            },
+            "168": {
+                "summary": {
+                    "total_requests": 256,
+                    "total_cost": 0.06816799999999999,
+                    "total_tokens": 570165,
+                    "online_time": 102565.10513000001,
+                    "total_messages": 67,
+                    "total_replies": 23,
+                    "avg_response_time": 25.31266015625,
+                    "cost_per_hour": 0.0023926734115755294,
+                    "tokens_per_hour": 20012.595876525083
+                },
+                "model_stats": [
+                    {
+                        "model_name": "Qwen/Qwen3-8B",
+                        "request_count": 158,
+                        "total_cost": 0.0,
+                        "total_tokens": 395946,
+                        "avg_response_time": 30.113000000000003
+                    },
+                    {
+                        "model_name": "deepseek-v4-flash",
+                        "request_count": 42,
+                        "total_cost": 0.05738900000000001,
+                        "total_tokens": 56003,
+                        "avg_response_time": 14.47395238095238
+                    }
+                ],
+                "hourly_data": [
+                    {
+                        "timestamp": "2026-05-23T03:00:00",
+                        "requests": 6,
+                        "cost": 0.0,
+                        "tokens": 12647
+                    },
+                    {
+                        "timestamp": "2026-05-23T06:00:00",
+                        "requests": 59,
+                        "cost": 0.012362999999999999,
+                        "tokens": 127621
+                    },
+                    {
+                        "timestamp": "2026-05-23T07:00:00",
+                        "requests": 24,
+                        "cost": 0.002381,
+                        "tokens": 43222
+                    },
+                    {
+                        "timestamp": "2026-05-23T08:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1671
+                    },
+                    {
+                        "timestamp": "2026-05-23T09:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1748
+                    },
+                    {
+                        "timestamp": "2026-05-23T10:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1988
+                    },
+                    {
+                        "timestamp": "2026-05-23T11:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1749
+                    },
+                    {
+                        "timestamp": "2026-05-23T12:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1773
+                    },
+                    {
+                        "timestamp": "2026-05-23T13:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1818
+                    },
+                    {
+                        "timestamp": "2026-05-23T14:00:00",
+                        "requests": 1,
+                        "cost": 0.0,
+                        "tokens": 761
+                    },
+                    {
+                        "timestamp": "2026-05-23T16:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1616
+                    },
+                    {
+                        "timestamp": "2026-05-23T17:00:00",
+                        "requests": 39,
+                        "cost": 0.017934,
+                        "tokens": 105667
+                    },
+                    {
+                        "timestamp": "2026-05-23T18:00:00",
+                        "requests": 45,
+                        "cost": 0.007490999999999999,
+                        "tokens": 109102
+                    },
+                    {
+                        "timestamp": "2026-05-23T19:00:00",
+                        "requests": 7,
+                        "cost": 0.002144,
+                        "tokens": 13100
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:00:00",
+                        "requests": 61,
+                        "cost": 0.025855,
+                        "tokens": 145682
+                    }
+                ],
+                "daily_data": [
+                    {
+                        "timestamp": "2026-05-23T00:00:00",
+                        "requests": 256,
+                        "cost": 0.06816799999999999,
+                        "tokens": 570165
+                    }
+                ],
+                "recent_activity": [
+                    {
+                        "timestamp": "2026-05-23T20:31:15.431611",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3430,
+                        "cost": 0.0,
+                        "time_cost": 20.951,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:31:11.016556",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 653,
+                        "cost": 0.0,
+                        "time_cost": 16.556,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:54.272566",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1145,
+                        "cost": 0.001187,
+                        "time_cost": 1.129,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:53.133205",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3155,
+                        "cost": 0.0,
+                        "time_cost": 16.666,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:51.161820",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 610,
+                        "cost": 0.0,
+                        "time_cost": 14.708,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:36.272836",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1126,
+                        "cost": 0.001152,
+                        "time_cost": 0.93,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:35.333559",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3293,
+                        "cost": 0.0,
+                        "time_cost": 24.993,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:10.321544",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3253,
+                        "cost": 0.0,
+                        "time_cost": 23.63,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:03.894100",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_reply_effect_judge",
+                        "tokens": 1627,
+                        "cost": 0.0,
+                        "time_cost": 50.623,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:29:46.683342",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_timing_gate",
+                        "tokens": 1694,
+                        "cost": 0.0,
+                        "time_cost": 19.978,
+                        "status": null
+                    }
+                ],
+                "sparse": true
+            },
+            "720": {
+                "summary": {
+                    "total_requests": 256,
+                    "total_cost": 0.06816799999999999,
+                    "total_tokens": 570165,
+                    "online_time": 102565.11050200001,
+                    "total_messages": 67,
+                    "total_replies": 23,
+                    "avg_response_time": 25.31266015625,
+                    "cost_per_hour": 0.002392673286255706,
+                    "tokens_per_hour": 20012.594828335652
+                },
+                "model_stats": [
+                    {
+                        "model_name": "Qwen/Qwen3-8B",
+                        "request_count": 158,
+                        "total_cost": 0.0,
+                        "total_tokens": 395946,
+                        "avg_response_time": 30.113000000000003
+                    },
+                    {
+                        "model_name": "deepseek-v4-flash",
+                        "request_count": 42,
+                        "total_cost": 0.05738900000000001,
+                        "total_tokens": 56003,
+                        "avg_response_time": 14.47395238095238
+                    }
+                ],
+                "hourly_data": [
+                    {
+                        "timestamp": "2026-05-23T03:00:00",
+                        "requests": 6,
+                        "cost": 0.0,
+                        "tokens": 12647
+                    },
+                    {
+                        "timestamp": "2026-05-23T06:00:00",
+                        "requests": 59,
+                        "cost": 0.012362999999999999,
+                        "tokens": 127621
+                    },
+                    {
+                        "timestamp": "2026-05-23T07:00:00",
+                        "requests": 24,
+                        "cost": 0.002381,
+                        "tokens": 43222
+                    },
+                    {
+                        "timestamp": "2026-05-23T08:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1671
+                    },
+                    {
+                        "timestamp": "2026-05-23T09:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1748
+                    },
+                    {
+                        "timestamp": "2026-05-23T10:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1988
+                    },
+                    {
+                        "timestamp": "2026-05-23T11:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1749
+                    },
+                    {
+                        "timestamp": "2026-05-23T12:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1773
+                    },
+                    {
+                        "timestamp": "2026-05-23T13:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1818
+                    },
+                    {
+                        "timestamp": "2026-05-23T14:00:00",
+                        "requests": 1,
+                        "cost": 0.0,
+                        "tokens": 761
+                    },
+                    {
+                        "timestamp": "2026-05-23T16:00:00",
+                        "requests": 2,
+                        "cost": 0.0,
+                        "tokens": 1616
+                    },
+                    {
+                        "timestamp": "2026-05-23T17:00:00",
+                        "requests": 39,
+                        "cost": 0.017934,
+                        "tokens": 105667
+                    },
+                    {
+                        "timestamp": "2026-05-23T18:00:00",
+                        "requests": 45,
+                        "cost": 0.007490999999999999,
+                        "tokens": 109102
+                    },
+                    {
+                        "timestamp": "2026-05-23T19:00:00",
+                        "requests": 7,
+                        "cost": 0.002144,
+                        "tokens": 13100
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:00:00",
+                        "requests": 61,
+                        "cost": 0.025855,
+                        "tokens": 145682
+                    }
+                ],
+                "daily_data": [
+                    {
+                        "timestamp": "2026-05-23T00:00:00",
+                        "requests": 256,
+                        "cost": 0.06816799999999999,
+                        "tokens": 570165
+                    }
+                ],
+                "recent_activity": [
+                    {
+                        "timestamp": "2026-05-23T20:31:15.431611",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3430,
+                        "cost": 0.0,
+                        "time_cost": 20.951,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:31:11.016556",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 653,
+                        "cost": 0.0,
+                        "time_cost": 16.556,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:54.272566",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1145,
+                        "cost": 0.001187,
+                        "time_cost": 1.129,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:53.133205",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3155,
+                        "cost": 0.0,
+                        "time_cost": 16.666,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:51.161820",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "person_fact_writeback",
+                        "tokens": 610,
+                        "cost": 0.0,
+                        "time_cost": 14.708,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:36.272836",
+                        "model": "deepseek-v4-flash",
+                        "request_type": "maisaka_replyer",
+                        "tokens": 1126,
+                        "cost": 0.001152,
+                        "time_cost": 0.93,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:35.333559",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3293,
+                        "cost": 0.0,
+                        "time_cost": 24.993,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:10.321544",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_planner",
+                        "tokens": 3253,
+                        "cost": 0.0,
+                        "time_cost": 23.63,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:30:03.894100",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_reply_effect_judge",
+                        "tokens": 1627,
+                        "cost": 0.0,
+                        "time_cost": 50.623,
+                        "status": null
+                    },
+                    {
+                        "timestamp": "2026-05-23T20:29:46.683342",
+                        "model": "Qwen/Qwen3-8B",
+                        "request_type": "maisaka_timing_gate",
+                        "tokens": 1694,
+                        "cost": 0.0,
+                        "time_cost": 19.978,
+                        "status": null
+                    }
+                ],
+                "sparse": true
+            }
+        }
+    },
+    "mmc_uuid": "416ba085-a766-313c-8df0-f8182bc59234"
+}

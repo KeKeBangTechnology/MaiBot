@@ -1,0 +1,30 @@
+{
+  "retrieval": {
+    "top_k_paragraphs": 15,
+    "top_k_relations": 10,
+    "top_k_final": 15,
+    "alpha": 0.7,
+    "enable_ppr": false,
+    "search": {
+      "smart_fallback": {
+        "enabled": false
+      }
+    },
+    "sparse": {
+      "enabled": true,
+      "mode": "auto",
+      "candidate_k": 70,
+      "relation_candidate_k": 50
+    },
+    "fusion": {
+      "method": "weighted_rrf",
+      "rrf_k": 70,
+      "vector_weight": 0.8,
+      "bm25_weight": 0.2
+    }
+  },
+  "threshold": {
+    "percentile": 70.0,
+    "min_results": 4
+  }
+}

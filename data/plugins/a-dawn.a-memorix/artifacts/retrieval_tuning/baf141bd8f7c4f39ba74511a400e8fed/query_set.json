@@ -1,0 +1,1827 @@
+{
+  "task_id": "baf141bd8f7c4f39ba74511a400e8fed",
+  "created_at": 1779559659.4564693,
+  "stats": {
+    "anchors": 24,
+    "case_total": 96,
+    "category_counts": {
+      "spo_relation": 24,
+      "spo_search": 24,
+      "query_kw": 24,
+      "query_nl": 24
+    },
+    "seed": 554138,
+    "sample_size": 24,
+    "sampling": {
+      "strategy": "predicate_round_robin_entity_diversity",
+      "sample_size": 24,
+      "total_triples": 51,
+      "predicate_total": 43,
+      "predicate_sampled": 24
+    },
+    "llm_nl_enabled": true,
+    "llm_nl_generated": 24
+  },
+  "items": [
+    {
+      "case_id": "spo_relation_0001",
+      "category": "spo_relation",
+      "query": "弭弗|对...忠心耿耿|庄方宜",
+      "expected_hashes": [
+        "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990"
+      ],
+      "expected_spo": {
+        "subject": "弭弗",
+        "predicate": "对...忠心耿耿",
+        "object": "庄方宜"
+      },
+      "metadata": {
+        "anchor_id": "a0001",
+        "relation_hash": "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "paragraph_hash": "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf",
+        "subject": "弭弗",
+        "predicate": "对...忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "spo_search_0001",
+      "category": "spo_search",
+      "query": "弭弗 庄方宜 relation 对...忠心耿耿",
+      "expected_hashes": [
+        "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0001",
+        "relation_hash": "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "paragraph_hash": "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf",
+        "subject": "弭弗",
+        "predicate": "对...忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "query_kw_0001",
+      "category": "query_kw",
+      "query": "对...忠心耿耿 庄方宜 的挑战总是超出预期 她来回奔波于文明环带的各处",
+      "expected_hashes": [
+        "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0001",
+        "relation_hash": "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "paragraph_hash": "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf",
+        "subject": "弭弗",
+        "predicate": "对...忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "query_nl_0001",
+      "category": "query_nl",
+      "query": "弭弗对谁忠心耿耿？",
+      "expected_hashes": [
+        "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0001",
+        "relation_hash": "f24933491b9ba585c280e238577edb5960d3285237969b528e63d9c47f28e990",
+        "paragraph_hash": "6990fbff603784d7fdee73317ac9d46ba0ca9539d3b96e2eda9e1f393aa742cf",
+        "subject": "弭弗",
+        "predicate": "对...忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "spo_relation_0002",
+      "category": "spo_relation",
+      "query": "泰拉大陆|是...的故乡|塔卫二拓荒者",
+      "expected_hashes": [
+        "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5"
+      ],
+      "expected_spo": {
+        "subject": "泰拉大陆",
+        "predicate": "是...的故乡",
+        "object": "塔卫二拓荒者"
+      },
+      "metadata": {
+        "anchor_id": "a0002",
+        "relation_hash": "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "paragraph_hash": "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999",
+        "subject": "泰拉大陆",
+        "predicate": "是...的故乡",
+        "object": "塔卫二拓荒者"
+      }
+    },
+    {
+      "case_id": "spo_search_0002",
+      "category": "spo_search",
+      "query": "是...的故乡 泰拉大陆 塔卫二拓荒者 evidence",
+      "expected_hashes": [
+        "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0002",
+        "relation_hash": "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "paragraph_hash": "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999",
+        "subject": "泰拉大陆",
+        "predicate": "是...的故乡",
+        "object": "塔卫二拓荒者"
+      }
+    },
+    {
+      "case_id": "query_kw_0002",
+      "category": "query_kw",
+      "query": "泰拉大陆 是...的故乡 泰拉 Terra",
+      "expected_hashes": [
+        "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0002",
+        "relation_hash": "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "paragraph_hash": "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999",
+        "subject": "泰拉大陆",
+        "predicate": "是...的故乡",
+        "object": "塔卫二拓荒者"
+      }
+    },
+    {
+      "case_id": "query_nl_0002",
+      "category": "query_nl",
+      "query": "塔卫二拓荒者的故乡是哪里？",
+      "expected_hashes": [
+        "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0002",
+        "relation_hash": "4fb49eb81c43ced7bc1f80964ef90f383f517034149e6500989e49ed0f3b73d5",
+        "paragraph_hash": "7920608fbb36f5b1cfe7b6f54c9664f317097b6352b52095816382d577af0999",
+        "subject": "泰拉大陆",
+        "predicate": "是...的故乡",
+        "object": "塔卫二拓荒者"
+      }
+    },
+    {
+      "case_id": "spo_relation_0003",
+      "category": "spo_relation",
+      "query": "陈千语|考核结果|心性不合格",
+      "expected_hashes": [
+        "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "考核结果",
+        "object": "心性不合格"
+      },
+      "metadata": {
+        "anchor_id": "a0003",
+        "relation_hash": "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "考核结果",
+        "object": "心性不合格"
+      }
+    },
+    {
+      "case_id": "spo_search_0003",
+      "category": "spo_search",
+      "query": "陈千语 考核结果 心性不合格 not",
+      "expected_hashes": [
+        "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0003",
+        "relation_hash": "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "考核结果",
+        "object": "心性不合格"
+      }
+    },
+    {
+      "case_id": "query_kw_0003",
+      "category": "query_kw",
+      "query": "陈千语 心性不合格 考核结果 陈千语是广建山和陈迟迟的女儿",
+      "expected_hashes": [
+        "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0003",
+        "relation_hash": "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "考核结果",
+        "object": "心性不合格"
+      }
+    },
+    {
+      "case_id": "query_nl_0003",
+      "category": "query_nl",
+      "query": "陈千语的考核结果如何？",
+      "expected_hashes": [
+        "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0003",
+        "relation_hash": "f0ca00814c1139d1f9c5ceed1ea4139ef29cff81e28cde407cfbe428745f8b84",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "考核结果",
+        "object": "心性不合格"
+      }
+    },
+    {
+      "case_id": "spo_relation_0004",
+      "category": "spo_relation",
+      "query": "陈千语|结识|李织烟",
+      "expected_hashes": [
+        "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "结识",
+        "object": "李织烟"
+      },
+      "metadata": {
+        "anchor_id": "a0004",
+        "relation_hash": "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "结识",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_search_0004",
+      "category": "spo_search",
+      "query": "陈千语 结识 李织烟",
+      "expected_hashes": [
+        "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0004",
+        "relation_hash": "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "结识",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_kw_0004",
+      "category": "query_kw",
+      "query": "陈千语 李织烟 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0004",
+        "relation_hash": "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "结识",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_nl_0004",
+      "category": "query_nl",
+      "query": "陈千语偶然结识了谁？",
+      "expected_hashes": [
+        "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0004",
+        "relation_hash": "1ee55b517874bfc9cf3b9009d81a44a85f9edc4fd5224d65765200fc43b8f85b",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "结识",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_relation_0005",
+      "category": "spo_relation",
+      "query": "聂菲斯|领导|碾骨氏族",
+      "expected_hashes": [
+        "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6"
+      ],
+      "expected_spo": {
+        "subject": "聂菲斯",
+        "predicate": "领导",
+        "object": "碾骨氏族"
+      },
+      "metadata": {
+        "anchor_id": "a0005",
+        "relation_hash": "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "领导",
+        "object": "碾骨氏族"
+      }
+    },
+    {
+      "case_id": "spo_search_0005",
+      "category": "spo_search",
+      "query": "聂菲斯 碾骨氏族 relation 领导",
+      "expected_hashes": [
+        "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0005",
+        "relation_hash": "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "领导",
+        "object": "碾骨氏族"
+      }
+    },
+    {
+      "case_id": "query_kw_0005",
+      "category": "query_kw",
+      "query": "领导 碾骨氏族 年就以优异成绩进入天师府学院 其后因才能卓越被选拔加入息壤项目",
+      "expected_hashes": [
+        "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0005",
+        "relation_hash": "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "领导",
+        "object": "碾骨氏族"
+      }
+    },
+    {
+      "case_id": "query_nl_0005",
+      "category": "query_nl",
+      "query": "谁领导碾骨氏族？",
+      "expected_hashes": [
+        "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0005",
+        "relation_hash": "0402e952053438fa9fdfef152c6946a6fded81fedc433a6cc7c1aa95f0e4d3c6",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "领导",
+        "object": "碾骨氏族"
+      }
+    },
+    {
+      "case_id": "spo_relation_0006",
+      "category": "spo_relation",
+      "query": "应龙特勤队|隶属于|宏山科学院",
+      "expected_hashes": [
+        "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec"
+      ],
+      "expected_spo": {
+        "subject": "应龙特勤队",
+        "predicate": "隶属于",
+        "object": "宏山科学院"
+      },
+      "metadata": {
+        "anchor_id": "a0006",
+        "relation_hash": "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "应龙特勤队",
+        "predicate": "隶属于",
+        "object": "宏山科学院"
+      }
+    },
+    {
+      "case_id": "spo_search_0006",
+      "category": "spo_search",
+      "query": "隶属于 应龙特勤队 宏山科学院 evidence",
+      "expected_hashes": [
+        "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0006",
+        "relation_hash": "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "应龙特勤队",
+        "predicate": "隶属于",
+        "object": "宏山科学院"
+      }
+    },
+    {
+      "case_id": "query_kw_0006",
+      "category": "query_kw",
+      "query": "应龙特勤队 隶属于 带的优质轻重武器装备的研发和生产需求 宏山选剑局在负责管理宏科院下属的各地选剑局的装备生产的同时也负责审核和分发生产蓝图",
+      "expected_hashes": [
+        "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0006",
+        "relation_hash": "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "应龙特勤队",
+        "predicate": "隶属于",
+        "object": "宏山科学院"
+      }
+    },
+    {
+      "case_id": "query_nl_0006",
+      "category": "query_nl",
+      "query": "应龙特勤队隶属于哪个机构？",
+      "expected_hashes": [
+        "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0006",
+        "relation_hash": "dc67851092ebe8bdc340e171bee05866f664cee4fe2ca1474d8006c24ffcf8ec",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "应龙特勤队",
+        "predicate": "隶属于",
+        "object": "宏山科学院"
+      }
+    },
+    {
+      "case_id": "spo_relation_0007",
+      "category": "spo_relation",
+      "query": "李织烟|与|陈千语",
+      "expected_hashes": [
+        "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935"
+      ],
+      "expected_spo": {
+        "subject": "李织烟",
+        "predicate": "与",
+        "object": "陈千语"
+      },
+      "metadata": {
+        "anchor_id": "a0007",
+        "relation_hash": "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "李织烟",
+        "predicate": "与",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "spo_search_0007",
+      "category": "spo_search",
+      "query": "李织烟 与 陈千语 not",
+      "expected_hashes": [
+        "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0007",
+        "relation_hash": "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "李织烟",
+        "predicate": "与",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "query_kw_0007",
+      "category": "query_kw",
+      "query": "李织烟 陈千语 与 带的优质轻重武器装备的研发和生产需求",
+      "expected_hashes": [
+        "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0007",
+        "relation_hash": "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "李织烟",
+        "predicate": "与",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "query_nl_0007",
+      "category": "query_nl",
+      "query": "李织烟与谁有联系？",
+      "expected_hashes": [
+        "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0007",
+        "relation_hash": "6227d7d94001503ca3169a7dd0e630e6e3456302481727cead2472099c250935",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "李织烟",
+        "predicate": "与",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "spo_relation_0008",
+      "category": "spo_relation",
+      "query": "陈千语|偶然结识|佩丽卡",
+      "expected_hashes": [
+        "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "偶然结识",
+        "object": "佩丽卡"
+      },
+      "metadata": {
+        "anchor_id": "a0008",
+        "relation_hash": "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "偶然结识",
+        "object": "佩丽卡"
+      }
+    },
+    {
+      "case_id": "spo_search_0008",
+      "category": "spo_search",
+      "query": "陈千语 偶然结识 佩丽卡",
+      "expected_hashes": [
+        "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0008",
+        "relation_hash": "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "偶然结识",
+        "object": "佩丽卡"
+      }
+    },
+    {
+      "case_id": "query_kw_0008",
+      "category": "query_kw",
+      "query": "陈千语 佩丽卡 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0008",
+        "relation_hash": "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "偶然结识",
+        "object": "佩丽卡"
+      }
+    },
+    {
+      "case_id": "query_nl_0008",
+      "category": "query_nl",
+      "query": "陈千语偶然结识了谁？",
+      "expected_hashes": [
+        "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0008",
+        "relation_hash": "c9459a4e1414b25df95510e1b469acd5f8b6f63e97d5e73adeb30870c78ab911",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "偶然结识",
+        "object": "佩丽卡"
+      }
+    },
+    {
+      "case_id": "spo_relation_0009",
+      "category": "spo_relation",
+      "query": "陈千语|首次实战迎战|离群天使",
+      "expected_hashes": [
+        "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "首次实战迎战",
+        "object": "离群天使"
+      },
+      "metadata": {
+        "anchor_id": "a0009",
+        "relation_hash": "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "首次实战迎战",
+        "object": "离群天使"
+      }
+    },
+    {
+      "case_id": "spo_search_0009",
+      "category": "spo_search",
+      "query": "陈千语 离群天使 relation 首次实战迎战",
+      "expected_hashes": [
+        "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0009",
+        "relation_hash": "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "首次实战迎战",
+        "object": "离群天使"
+      }
+    },
+    {
+      "case_id": "query_kw_0009",
+      "category": "query_kw",
+      "query": "首次实战迎战 离群天使 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0009",
+        "relation_hash": "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "首次实战迎战",
+        "object": "离群天使"
+      }
+    },
+    {
+      "case_id": "query_nl_0009",
+      "category": "query_nl",
+      "query": "陈千语首次实战迎战的是什么？",
+      "expected_hashes": [
+        "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0009",
+        "relation_hash": "54b5696e5b8c72b09e7c87fe177fce54f246288d8fb46015060792b879f1f302",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "首次实战迎战",
+        "object": "离群天使"
+      }
+    },
+    {
+      "case_id": "spo_relation_0010",
+      "category": "spo_relation",
+      "query": "陈千语|关心李织烟|李织烟",
+      "expected_hashes": [
+        "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "关心李织烟",
+        "object": "李织烟"
+      },
+      "metadata": {
+        "anchor_id": "a0010",
+        "relation_hash": "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "关心李织烟",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_search_0010",
+      "category": "spo_search",
+      "query": "关心李织烟 陈千语 李织烟 evidence",
+      "expected_hashes": [
+        "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0010",
+        "relation_hash": "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "关心李织烟",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_kw_0010",
+      "category": "query_kw",
+      "query": "陈千语 关心李织烟 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0010",
+        "relation_hash": "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "关心李织烟",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_nl_0010",
+      "category": "query_nl",
+      "query": "谁关心李织烟？",
+      "expected_hashes": [
+        "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0010",
+        "relation_hash": "319afc5074907840bc2d6397a665d5b9c6f34ae6affecc6a03785ded6f226f00",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "关心李织烟",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_relation_0011",
+      "category": "spo_relation",
+      "query": "弭弗|死对头|汤汤",
+      "expected_hashes": [
+        "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110"
+      ],
+      "expected_spo": {
+        "subject": "弭弗",
+        "predicate": "死对头",
+        "object": "汤汤"
+      },
+      "metadata": {
+        "anchor_id": "a0011",
+        "relation_hash": "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "死对头",
+        "object": "汤汤"
+      }
+    },
+    {
+      "case_id": "spo_search_0011",
+      "category": "spo_search",
+      "query": "弭弗 死对头 汤汤 not",
+      "expected_hashes": [
+        "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0011",
+        "relation_hash": "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "死对头",
+        "object": "汤汤"
+      }
+    },
+    {
+      "case_id": "query_kw_0011",
+      "category": "query_kw",
+      "query": "弭弗 汤汤 死对头 年就以优异成绩进入天师府学院",
+      "expected_hashes": [
+        "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0011",
+        "relation_hash": "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "死对头",
+        "object": "汤汤"
+      }
+    },
+    {
+      "case_id": "query_nl_0011",
+      "category": "query_nl",
+      "query": "弭弗的死对头是谁？",
+      "expected_hashes": [
+        "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0011",
+        "relation_hash": "13c1405cc16bda5d69623e5c95f92f6ad8cdacb259dd86dc3023d63128bde110",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "死对头",
+        "object": "汤汤"
+      }
+    },
+    {
+      "case_id": "spo_relation_0012",
+      "category": "spo_relation",
+      "query": "陈千语|参与考核|李织烟",
+      "expected_hashes": [
+        "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "参与考核",
+        "object": "李织烟"
+      },
+      "metadata": {
+        "anchor_id": "a0012",
+        "relation_hash": "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "参与考核",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_search_0012",
+      "category": "spo_search",
+      "query": "陈千语 参与考核 李织烟",
+      "expected_hashes": [
+        "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0012",
+        "relation_hash": "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "参与考核",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_kw_0012",
+      "category": "query_kw",
+      "query": "陈千语 李织烟 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0012",
+        "relation_hash": "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "参与考核",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "query_nl_0012",
+      "category": "query_nl",
+      "query": "陈千语参与考核的是谁？",
+      "expected_hashes": [
+        "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0012",
+        "relation_hash": "d2f7a3a4075677cb5a64845c21dddd2a9a9ce77bd448a8c57463535683de5928",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "参与考核",
+        "object": "李织烟"
+      }
+    },
+    {
+      "case_id": "spo_relation_0013",
+      "category": "spo_relation",
+      "query": "弭弗|旧识|陈千语",
+      "expected_hashes": [
+        "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4"
+      ],
+      "expected_spo": {
+        "subject": "弭弗",
+        "predicate": "旧识",
+        "object": "陈千语"
+      },
+      "metadata": {
+        "anchor_id": "a0013",
+        "relation_hash": "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "旧识",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "spo_search_0013",
+      "category": "spo_search",
+      "query": "弭弗 陈千语 relation 旧识",
+      "expected_hashes": [
+        "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0013",
+        "relation_hash": "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "旧识",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "query_kw_0013",
+      "category": "query_kw",
+      "query": "旧识 陈千语 年就以优异成绩进入天师府学院 其后因才能卓越被选拔加入息壤项目",
+      "expected_hashes": [
+        "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0013",
+        "relation_hash": "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "旧识",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "query_nl_0013",
+      "category": "query_nl",
+      "query": "弭弗与谁是旧识？",
+      "expected_hashes": [
+        "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0013",
+        "relation_hash": "2e2327e377045a8f48c53238c5bc44c4e41001b1a391c532ac41914a528644f4",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "旧识",
+        "object": "陈千语"
+      }
+    },
+    {
+      "case_id": "spo_relation_0014",
+      "category": "spo_relation",
+      "query": "天师府学院|培养|天师",
+      "expected_hashes": [
+        "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632"
+      ],
+      "expected_spo": {
+        "subject": "天师府学院",
+        "predicate": "培养",
+        "object": "天师"
+      },
+      "metadata": {
+        "anchor_id": "a0014",
+        "relation_hash": "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "天师府学院",
+        "predicate": "培养",
+        "object": "天师"
+      }
+    },
+    {
+      "case_id": "spo_search_0014",
+      "category": "spo_search",
+      "query": "培养 天师府学院 天师 evidence",
+      "expected_hashes": [
+        "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0014",
+        "relation_hash": "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "天师府学院",
+        "predicate": "培养",
+        "object": "天师"
+      }
+    },
+    {
+      "case_id": "query_kw_0014",
+      "category": "query_kw",
+      "query": "天师府学院 培养 业系统在内的各项功能 终末地工业",
+      "expected_hashes": [
+        "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0014",
+        "relation_hash": "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "天师府学院",
+        "predicate": "培养",
+        "object": "天师"
+      }
+    },
+    {
+      "case_id": "query_nl_0014",
+      "category": "query_nl",
+      "query": "天师府学院培养的是什么？",
+      "expected_hashes": [
+        "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0014",
+        "relation_hash": "98d0d01d52307580e3c4a34225a1f9f8d7580a7c9abcfab8837b9f3c5668d632",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "天师府学院",
+        "predicate": "培养",
+        "object": "天师"
+      }
+    },
+    {
+      "case_id": "spo_relation_0015",
+      "category": "spo_relation",
+      "query": "陈千语|十岁生日得知母亲离家|广建山",
+      "expected_hashes": [
+        "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "十岁生日得知母亲离家",
+        "object": "广建山"
+      },
+      "metadata": {
+        "anchor_id": "a0015",
+        "relation_hash": "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "十岁生日得知母亲离家",
+        "object": "广建山"
+      }
+    },
+    {
+      "case_id": "spo_search_0015",
+      "category": "spo_search",
+      "query": "陈千语 十岁生日得知母亲离家 广建山 not",
+      "expected_hashes": [
+        "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0015",
+        "relation_hash": "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "十岁生日得知母亲离家",
+        "object": "广建山"
+      }
+    },
+    {
+      "case_id": "query_kw_0015",
+      "category": "query_kw",
+      "query": "陈千语 广建山 十岁生日得知母亲离家 陈千语是广建山和陈迟迟的女儿",
+      "expected_hashes": [
+        "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0015",
+        "relation_hash": "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "十岁生日得知母亲离家",
+        "object": "广建山"
+      }
+    },
+    {
+      "case_id": "query_nl_0015",
+      "category": "query_nl",
+      "query": "陈千语十岁生日得知母亲离家的消息来自谁？",
+      "expected_hashes": [
+        "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0015",
+        "relation_hash": "f39621812c6dc02e2bb723a8de4289b6af9e9e5f2fc7d4c71eb6ff5d9b971883",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "十岁生日得知母亲离家",
+        "object": "广建山"
+      }
+    },
+    {
+      "case_id": "spo_relation_0016",
+      "category": "spo_relation",
+      "query": "弭弗|忠心耿耿|庄方宜",
+      "expected_hashes": [
+        "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550"
+      ],
+      "expected_spo": {
+        "subject": "弭弗",
+        "predicate": "忠心耿耿",
+        "object": "庄方宜"
+      },
+      "metadata": {
+        "anchor_id": "a0016",
+        "relation_hash": "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "spo_search_0016",
+      "category": "spo_search",
+      "query": "弭弗 忠心耿耿 庄方宜",
+      "expected_hashes": [
+        "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0016",
+        "relation_hash": "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "query_kw_0016",
+      "category": "query_kw",
+      "query": "弭弗 庄方宜 年就以优异成绩进入天师府学院 其后因才能卓越被选拔加入息壤项目",
+      "expected_hashes": [
+        "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0016",
+        "relation_hash": "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "query_nl_0016",
+      "category": "query_nl",
+      "query": "弭弗忠心耿耿的对象是谁？",
+      "expected_hashes": [
+        "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0016",
+        "relation_hash": "4a614d1e367ed556bf2124889ea7b626858e6651650a83d365f3bbc7b2bd4550",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "弭弗",
+        "predicate": "忠心耿耿",
+        "object": "庄方宜"
+      }
+    },
+    {
+      "case_id": "spo_relation_0017",
+      "category": "spo_relation",
+      "query": "终末地工业|管理|宏山选剑局",
+      "expected_hashes": [
+        "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81"
+      ],
+      "expected_spo": {
+        "subject": "终末地工业",
+        "predicate": "管理",
+        "object": "宏山选剑局"
+      },
+      "metadata": {
+        "anchor_id": "a0017",
+        "relation_hash": "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "终末地工业",
+        "predicate": "管理",
+        "object": "宏山选剑局"
+      }
+    },
+    {
+      "case_id": "spo_search_0017",
+      "category": "spo_search",
+      "query": "终末地工业 宏山选剑局 relation 管理",
+      "expected_hashes": [
+        "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0017",
+        "relation_hash": "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "终末地工业",
+        "predicate": "管理",
+        "object": "宏山选剑局"
+      }
+    },
+    {
+      "case_id": "query_kw_0017",
+      "category": "query_kw",
+      "query": "管理 宏山选剑局 业系统在内的各项功能 终末地工业是一家以提供前沿工业科研服务为主要业务",
+      "expected_hashes": [
+        "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0017",
+        "relation_hash": "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "终末地工业",
+        "predicate": "管理",
+        "object": "宏山选剑局"
+      }
+    },
+    {
+      "case_id": "query_nl_0017",
+      "category": "query_nl",
+      "query": "终末地工业管理的是哪个部门？",
+      "expected_hashes": [
+        "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0017",
+        "relation_hash": "6d3ffbf4e90f3f1211866e480d6733f55ec79b68b07334f320644554e9749f81",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "终末地工业",
+        "predicate": "管理",
+        "object": "宏山选剑局"
+      }
+    },
+    {
+      "case_id": "spo_relation_0018",
+      "category": "spo_relation",
+      "query": "用户|约定|麦麦",
+      "expected_hashes": [
+        "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808"
+      ],
+      "expected_spo": {
+        "subject": "用户",
+        "predicate": "约定",
+        "object": "麦麦"
+      },
+      "metadata": {
+        "anchor_id": "a0018",
+        "relation_hash": "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "约定",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "spo_search_0018",
+      "category": "spo_search",
+      "query": "约定 用户 麦麦 evidence",
+      "expected_hashes": [
+        "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0018",
+        "relation_hash": "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "约定",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "query_kw_0018",
+      "category": "query_kw",
+      "query": "用户 约定 用户与麦麦约定在食堂见面 用户表示愿意请客",
+      "expected_hashes": [
+        "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0018",
+        "relation_hash": "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "约定",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "query_nl_0018",
+      "category": "query_nl",
+      "query": "用户与麦麦约定在何处见面？",
+      "expected_hashes": [
+        "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0018",
+        "relation_hash": "92b5e7a42f9fa10b1c4db07b53b13edb8f47abc734d04619e311469f343ab808",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "约定",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "spo_relation_0019",
+      "category": "spo_relation",
+      "query": "聂菲斯|称呼...为|管理员",
+      "expected_hashes": [
+        "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a"
+      ],
+      "expected_spo": {
+        "subject": "聂菲斯",
+        "predicate": "称呼...为",
+        "object": "管理员"
+      },
+      "metadata": {
+        "anchor_id": "a0019",
+        "relation_hash": "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "称呼...为",
+        "object": "管理员"
+      }
+    },
+    {
+      "case_id": "spo_search_0019",
+      "category": "spo_search",
+      "query": "聂菲斯 称呼...为 管理员 not",
+      "expected_hashes": [
+        "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0019",
+        "relation_hash": "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "称呼...为",
+        "object": "管理员"
+      }
+    },
+    {
+      "case_id": "query_kw_0019",
+      "category": "query_kw",
+      "query": "聂菲斯 管理员 称呼...为 年就以优异成绩进入天师府学院",
+      "expected_hashes": [
+        "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0019",
+        "relation_hash": "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "称呼...为",
+        "object": "管理员"
+      }
+    },
+    {
+      "case_id": "query_nl_0019",
+      "category": "query_nl",
+      "query": "聂菲斯被称为什么？",
+      "expected_hashes": [
+        "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0019",
+        "relation_hash": "291e243248e731c4d0a837326dbbd776c332b6e4c446e4e71d9f22c15061931a",
+        "paragraph_hash": "ccf7dab3e646d95ca502af1d641f0a81aa088b69f1f63264276fba59f684231c",
+        "subject": "聂菲斯",
+        "predicate": "称呼...为",
+        "object": "管理员"
+      }
+    },
+    {
+      "case_id": "spo_relation_0020",
+      "category": "spo_relation",
+      "query": "用户|请客|麦麦",
+      "expected_hashes": [
+        "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e"
+      ],
+      "expected_spo": {
+        "subject": "用户",
+        "predicate": "请客",
+        "object": "麦麦"
+      },
+      "metadata": {
+        "anchor_id": "a0020",
+        "relation_hash": "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "请客",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "spo_search_0020",
+      "category": "spo_search",
+      "query": "用户 请客 麦麦",
+      "expected_hashes": [
+        "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0020",
+        "relation_hash": "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "请客",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "query_kw_0020",
+      "category": "query_kw",
+      "query": "用户 麦麦 用户与麦麦约定在食堂见面 用户表示愿意请客",
+      "expected_hashes": [
+        "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0020",
+        "relation_hash": "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "请客",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "query_nl_0020",
+      "category": "query_nl",
+      "query": "用户愿意请客的对象是谁？",
+      "expected_hashes": [
+        "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0020",
+        "relation_hash": "a6c1595c2d317fee258d62f0daf9b78f8dc5c0bc04a970ac552912cc67fc6c9e",
+        "paragraph_hash": "3285cdfc0574be28f98660c4befe70448d469fbfdad61700d4074f04d8175830",
+        "subject": "用户",
+        "predicate": "请客",
+        "object": "麦麦"
+      }
+    },
+    {
+      "case_id": "spo_relation_0021",
+      "category": "spo_relation",
+      "query": "联盟工团|位于|塔卫二",
+      "expected_hashes": [
+        "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b"
+      ],
+      "expected_spo": {
+        "subject": "联盟工团",
+        "predicate": "位于",
+        "object": "塔卫二"
+      },
+      "metadata": {
+        "anchor_id": "a0021",
+        "relation_hash": "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "联盟工团",
+        "predicate": "位于",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "spo_search_0021",
+      "category": "spo_search",
+      "query": "联盟工团 塔卫二 relation 位于",
+      "expected_hashes": [
+        "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0021",
+        "relation_hash": "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "联盟工团",
+        "predicate": "位于",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "query_kw_0021",
+      "category": "query_kw",
+      "query": "位于 塔卫二 带的优质轻重武器装备的研发和生产需求 宏山选剑局在负责管理宏科院下属的各地选剑局的装备生产的同时也负责审核和分发生产蓝图",
+      "expected_hashes": [
+        "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0021",
+        "relation_hash": "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "联盟工团",
+        "predicate": "位于",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "query_nl_0021",
+      "category": "query_nl",
+      "query": "联盟工团位于哪个星球？",
+      "expected_hashes": [
+        "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0021",
+        "relation_hash": "435e2e29dca8b90aaff9bacb864d5bccaeb68a16434ecb81624506aeba49637b",
+        "paragraph_hash": "43763a524c501f70fac663860c1890ca3127f0d67ca0b981371febea7247c7ac",
+        "subject": "联盟工团",
+        "predicate": "位于",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "spo_relation_0022",
+      "category": "spo_relation",
+      "query": "陈千语|名字由来|因罚抄方便而取名",
+      "expected_hashes": [
+        "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "名字由来",
+        "object": "因罚抄方便而取名"
+      },
+      "metadata": {
+        "anchor_id": "a0022",
+        "relation_hash": "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "名字由来",
+        "object": "因罚抄方便而取名"
+      }
+    },
+    {
+      "case_id": "spo_search_0022",
+      "category": "spo_search",
+      "query": "名字由来 陈千语 因罚抄方便而取名 evidence",
+      "expected_hashes": [
+        "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0022",
+        "relation_hash": "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "名字由来",
+        "object": "因罚抄方便而取名"
+      }
+    },
+    {
+      "case_id": "query_kw_0022",
+      "category": "query_kw",
+      "query": "陈千语 名字由来 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0022",
+        "relation_hash": "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "名字由来",
+        "object": "因罚抄方便而取名"
+      }
+    },
+    {
+      "case_id": "query_nl_0022",
+      "category": "query_nl",
+      "query": "陈千语的名字由来是什么？",
+      "expected_hashes": [
+        "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0022",
+        "relation_hash": "1fc70d5afface8aefb202733cab2e4b1c7724929a347f96ca5b76681df6dceb3",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "名字由来",
+        "object": "因罚抄方便而取名"
+      }
+    },
+    {
+      "case_id": "spo_relation_0023",
+      "category": "spo_relation",
+      "query": "宏山科学院|下属|应龙特勤队",
+      "expected_hashes": [
+        "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0"
+      ],
+      "expected_spo": {
+        "subject": "宏山科学院",
+        "predicate": "下属",
+        "object": "应龙特勤队"
+      },
+      "metadata": {
+        "anchor_id": "a0023",
+        "relation_hash": "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "宏山科学院",
+        "predicate": "下属",
+        "object": "应龙特勤队"
+      }
+    },
+    {
+      "case_id": "spo_search_0023",
+      "category": "spo_search",
+      "query": "宏山科学院 下属 应龙特勤队 not",
+      "expected_hashes": [
+        "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0023",
+        "relation_hash": "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "宏山科学院",
+        "predicate": "下属",
+        "object": "应龙特勤队"
+      }
+    },
+    {
+      "case_id": "query_kw_0023",
+      "category": "query_kw",
+      "query": "宏山科学院 应龙特勤队 下属 业系统在内的各项功能",
+      "expected_hashes": [
+        "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0023",
+        "relation_hash": "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "宏山科学院",
+        "predicate": "下属",
+        "object": "应龙特勤队"
+      }
+    },
+    {
+      "case_id": "query_nl_0023",
+      "category": "query_nl",
+      "query": "宏山科学院下属的是哪支队伍？",
+      "expected_hashes": [
+        "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0023",
+        "relation_hash": "6034eb6fb0e921a59b82cb7914eacc670fc4655cc3ba8e8ceb88365134395df0",
+        "paragraph_hash": "723cc97a93643042e509c967338f62c7dc1d163d0746677d23d8be7b94d5aef1",
+        "subject": "宏山科学院",
+        "predicate": "下属",
+        "object": "应龙特勤队"
+      }
+    },
+    {
+      "case_id": "spo_relation_0024",
+      "category": "spo_relation",
+      "query": "陈千语|出师后游历|塔卫二",
+      "expected_hashes": [
+        "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765"
+      ],
+      "expected_spo": {
+        "subject": "陈千语",
+        "predicate": "出师后游历",
+        "object": "塔卫二"
+      },
+      "metadata": {
+        "anchor_id": "a0024",
+        "relation_hash": "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "出师后游历",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "spo_search_0024",
+      "category": "spo_search",
+      "query": "陈千语 出师后游历 塔卫二",
+      "expected_hashes": [
+        "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0024",
+        "relation_hash": "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "出师后游历",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "query_kw_0024",
+      "category": "query_kw",
+      "query": "陈千语 塔卫二 陈千语是广建山和陈迟迟的女儿 于塔罗斯历132年8月18日今年二十岁啦生于文明环带外",
+      "expected_hashes": [
+        "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0024",
+        "relation_hash": "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "出师后游历",
+        "object": "塔卫二"
+      }
+    },
+    {
+      "case_id": "query_nl_0024",
+      "category": "query_nl",
+      "query": "陈千语出师后开始游历的地点是哪里？",
+      "expected_hashes": [
+        "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94"
+      ],
+      "expected_spo": {},
+      "metadata": {
+        "anchor_id": "a0024",
+        "relation_hash": "bfc7be567003806dd0a3f3e012cbe7b46ef358bee7cf6ba9447eadc127102765",
+        "paragraph_hash": "0d4f0cdc84fffd110d82481c3f0f8733075cb3dbcea189382599eb129b82ce94",
+        "subject": "陈千语",
+        "predicate": "出师后游历",
+        "object": "塔卫二"
+      }
+    }
+  ]
+}

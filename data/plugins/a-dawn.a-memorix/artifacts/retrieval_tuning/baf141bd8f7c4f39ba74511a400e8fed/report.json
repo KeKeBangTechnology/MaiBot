@@ -1,0 +1,189 @@
+{
+  "task_id": "baf141bd8f7c4f39ba74511a400e8fed",
+  "objective": "precision_priority",
+  "intensity": "standard",
+  "status": "completed",
+  "created_at": 1779559475.4454973,
+  "started_at": 1779559475.4456005,
+  "finished_at": 1779561003.4063964,
+  "rounds_total": 20,
+  "rounds_done": 20,
+  "best_score": 0.698378,
+  "baseline_score": 0.5796283,
+  "query_set_stats": {
+    "anchors": 24,
+    "case_total": 96,
+    "category_counts": {
+      "spo_relation": 24,
+      "spo_search": 24,
+      "query_kw": 24,
+      "query_nl": 24
+    },
+    "seed": 554138,
+    "sample_size": 24,
+    "sampling": {
+      "strategy": "predicate_round_robin_entity_diversity",
+      "sample_size": 24,
+      "total_triples": 51,
+      "predicate_total": 43,
+      "predicate_sampled": 24
+    },
+    "llm_nl_enabled": true,
+    "llm_nl_generated": 24
+  },
+  "baseline_metrics": {
+    "total_text_cases": 72,
+    "precision_at_1": 0.305556,
+    "precision_at_3": 0.805556,
+    "mrr": 0.532407,
+    "recall_at_k": 0.847222,
+    "spo_relation_hit_rate": 0.916667,
+    "empty_rate": 0.013889,
+    "timeout_count": 1,
+    "avg_elapsed_ms": 290.101,
+    "category": {
+      "spo_relation": {
+        "total": 24,
+        "hit": 22,
+        "hit_at_1": 22,
+        "hit_at_3": 22,
+        "empty": 0
+      },
+      "spo_search": {
+        "total": 24,
+        "hit": 18,
+        "hit_at_1": 6,
+        "hit_at_3": 17,
+        "empty": 1
+      },
+      "query_kw": {
+        "total": 24,
+        "hit": 22,
+        "hit_at_1": 6,
+        "hit_at_3": 20,
+        "empty": 0
+      },
+      "query_nl": {
+        "total": 24,
+        "hit": 21,
+        "hit_at_1": 10,
+        "hit_at_3": 21,
+        "empty": 0
+      }
+    },
+    "category_floor_penalty": 0.000233
+  },
+  "best_metrics": {
+    "total_text_cases": 72,
+    "precision_at_1": 0.805556,
+    "precision_at_3": 0.875,
+    "mrr": 0.842593,
+    "recall_at_k": 0.888889,
+    "spo_relation_hit_rate": 0.916667,
+    "empty_rate": 0.0,
+    "timeout_count": 0,
+    "avg_elapsed_ms": 308.052,
+    "category": {
+      "spo_relation": {
+        "total": 24,
+        "hit": 22,
+        "hit_at_1": 22,
+        "hit_at_3": 22,
+        "empty": 0
+      },
+      "spo_search": {
+        "total": 24,
+        "hit": 21,
+        "hit_at_1": 20,
+        "hit_at_3": 21,
+        "empty": 0
+      },
+      "query_kw": {
+        "total": 24,
+        "hit": 22,
+        "hit_at_1": 20,
+        "hit_at_3": 21,
+        "empty": 0
+      },
+      "query_nl": {
+        "total": 24,
+        "hit": 21,
+        "hit_at_1": 18,
+        "hit_at_3": 21,
+        "empty": 0
+      }
+    },
+    "category_floor_penalty": 0.000233
+  },
+  "deltas": {
+    "precision_at_1": 0.5,
+    "precision_at_3": 0.06944399999999995,
+    "mrr": 0.3101860000000001,
+    "recall_at_k": 0.04166700000000001,
+    "spo_relation_hit_rate": 0.0,
+    "empty_rate": -0.013889,
+    "timeout_count": -1.0,
+    "avg_elapsed_ms": 17.951000000000022
+  },
+  "best_profile": {
+    "retrieval": {
+      "top_k_paragraphs": 15,
+      "top_k_relations": 10,
+      "top_k_final": 15,
+      "alpha": 0.7,
+      "enable_ppr": false,
+      "search": {
+        "smart_fallback": {
+          "enabled": false
+        }
+      },
+      "sparse": {
+        "enabled": true,
+        "mode": "auto",
+        "candidate_k": 70,
+        "relation_candidate_k": 50
+      },
+      "fusion": {
+        "method": "weighted_rrf",
+        "rrf_k": 70,
+        "vector_weight": 0.8,
+        "bm25_weight": 0.2
+      }
+    },
+    "threshold": {
+      "percentile": 70.0,
+      "min_results": 4
+    }
+  },
+  "baseline_profile": {
+    "retrieval": {
+      "top_k_paragraphs": 20,
+      "top_k_relations": 10,
+      "top_k_final": 10,
+      "alpha": 0.5,
+      "enable_ppr": true,
+      "search": {
+        "smart_fallback": {
+          "enabled": true
+        }
+      },
+      "sparse": {
+        "enabled": true,
+        "mode": "auto",
+        "candidate_k": 80,
+        "relation_candidate_k": 60
+      },
+      "fusion": {
+        "method": "weighted_rrf",
+        "rrf_k": 60,
+        "vector_weight": 0.7,
+        "bm25_weight": 0.3
+      }
+    },
+    "threshold": {
+      "percentile": 75.0,
+      "min_results": 3
+    }
+  },
+  "apply_log": []
+}
